@@ -1,4 +1,10 @@
 EasySCM::Application.routes.draw do
+  resources :test_scenarios
+
+  resources :features
+
+  resources :messages
+
   resources :test_cases
 
   # The priority is based upon order of creation:
